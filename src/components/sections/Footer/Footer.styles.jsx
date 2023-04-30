@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { BlogTextM } from '..';
 
 export const FooterStyled = styled.footer`
-  max-width: 1850px;
+  max-width: 1920px;
   margin: 0 auto;
   padding: 20px 0;
   background-color: ${p => p.theme.colors.footer};

@@ -5,7 +5,7 @@ export const HeaderStyled = styled.header`
   padding: 22px 24px;
   position: absolute;
   top: 0;
-  max-width: 1793px;
+  max-width: 1863px;
 
   width: calc(100% - 48px);
   left: 50%;
