@@ -16,7 +16,7 @@ const initialValues = {
 
 const schema = yup.object().shape({
   name: yup.string().min(1).max(12).required(),
-  email: yup.string().email(),
+  email: yup.string().email().required(),
 });
 
 const encode = data => {

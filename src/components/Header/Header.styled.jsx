@@ -70,6 +70,7 @@ export const NavListItem = styled.li`
 `;
 
 export const NavLinkStyled = styled(Link)`
+  cursor: pointer;
   font-size: 12px;
   line-height: 1.37;
   color: ${p => p.theme.colors.white};

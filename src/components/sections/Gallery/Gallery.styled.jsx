@@ -44,6 +44,10 @@ export const GalleryList = styled.ul`
 `;
 
 export const GalleryItem = styled.li`
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
   &:not(:last-child) {
     margin-bottom: 6px;
     @media screen and (min-width: 768px) {
